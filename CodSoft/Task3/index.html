@@ -1,0 +1,52 @@
+<!DOCTYPE hlml>
+<html>
+    <head>
+        <meta charset = "UTF-8 " />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="styles.css"  />
+        <title> Simple Calculator </title>
+    </head>
+    <body>
+        <h1>SIMPLE CALCULATOR</h1>
+        <div class="tbl">
+            <table >
+                <tr>
+                    <td colspan="4"> <input type="textarea" id="ans" disabled /> </td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="AC" onclick="clrScreen()"></td>
+                    <td><input type="button" value="DEL" onclick="del()"></td>
+                    <td><input type="button" value="/" onclick="display('/')"></td>
+                    <td><input type="button" value="*" onclick="display('*')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="7" onclick="display('7')"></td>
+                    <td><input type="button" value="8" onclick="display('8')"></td>
+                    <td><input type="button" value="9" onclick="display('9')"></td>
+                    <td><input type="button" value="-" onclick="display('-')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="4" onclick="display('4')"></td>
+                    <td><input type="button" value="5" onclick="display('5')"></td>
+                    <td><input type="button" value="6" onclick="display('6')"></td>
+                    <td><input type="button" value="+" onclick="display('+')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="1" onclick="display('1')"></td>
+                    <td><input type="button" value="2" onclick="display('2')"></td>
+                    <td><input type="button" value="3" onclick="display('3')"></td>
+                    <td rowspan="2"><input type="button" value="=" onclick="calculate()" id="eq"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="00" onclick="display('00')"></td>
+                    <td><input type="button" value="0" onclick="display('0')"></td>
+                    <td><input type="button" value="." onclick="display('.')"></td>
+                </tr>
+
+            
+            </table>
+        </div>
+        <script src="index.js"></script>
+
+    </body>
+</html>

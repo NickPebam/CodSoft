@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+
+}
+body {
+    padding: 6% 20%;
+    background-color: #F1EFEF;
+}
+
+table{
+    background-color: #001524;
+    border-collapse: collapse;
+    border: solid black;
+    height: 300px;
+    width: 400px;
+}
+.tbl{
+    padding: 5% 28%;
+}
+td {
+    padding: 3%;
+    align-items: center;
+}
+input[type=button] {
+    background-color:  #2E4374;
+    border-collapse: collapse;
+    border-radius: 5px;
+    color: aliceblue;
+    height: 50px;
+    width: 80px;
+}
+input[type=textarea]{
+    padding-left: 1%;
+    color: black;
+    font-size: 2rem;
+    margin: 1%;
+    height: 80px;
+    width: 370px;
+}
+#eq {
+    height: 120px;
+}
